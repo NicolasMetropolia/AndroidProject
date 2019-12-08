@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info1"
+    tools:context=".InformationScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="0dp"
+        android:text="Information"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/NameValue"
+        android:layout_width="208dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/GenderValue"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/AgeValue"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="84dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="164dp"
+        android:text="Gender:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="244dp"
+        android:textSize="20sp"
+        android:text="Age:"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Weight"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="324dp"
+        android:text="Weight:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Calories"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="404dp"
+        android:text="Daily Calories:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/WeightValue"
+        android:layout_width="208dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="325dp"
+        android:textStyle="bold"
+        android:ems="10"/>
+    <TextView
+        android:id="@+id/CalorieValue"
+        android:layout_width="208dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="425dp"
+        android:textStyle="bold"
+        android:ems="10"
+        />
+    <Button
+        android:id="@+id/Continue"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="155dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="500dp"
+        android:textStyle="bold"
+        android:text="Continue" />
+
+
+
+
+</RelativeLayout>

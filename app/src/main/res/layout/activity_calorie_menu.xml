@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info1"
+    tools:context=".CalorieMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="0dp"
+        android:text="Calorie Menu"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/NameValue2"
+        android:layout_width="208dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/CalorieConsumedValue"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/FoodName2Value"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/CaloriesLostValue"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/ExerciseNameValue"
+        android:layout_width="208dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Name2"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:textAlignment="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="84dp"
+        android:textSize="20sp"
+        android:text="Name:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/FoodName2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="160dp"
+        android:text="Today's Foods:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/CalorieIntaken"
+        android:layout_width="108dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="240dp"
+        android:text="Calories Consumed:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ExerciseName"
+        android:layout_width="108dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="320dp"
+        android:text="Exercise Name:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CaloriesLost"
+        android:layout_width="108dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="400dp"
+        android:text="Calories Lost:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/TotalCalories"
+        android:layout_width="108dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="480dp"
+        android:text="Today's Calories:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TotalCaloriesValue"
+        android:layout_width="208dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="480dp"
+        android:textStyle="bold"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/AddFoods"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="1dp"
+        android:text="Add Foods" />
+
+    <Button
+        android:id="@+id/AddExercises"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="1dp"
+        android:text="Add Execises" />
+    <Button
+        android:id="@+id/Result"
+        android:layout_width="102dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginBottom="1dp"
+        android:text="Calculate" />
+
+
+</RelativeLayout>

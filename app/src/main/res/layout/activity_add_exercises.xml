@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info1"
+    tools:context=".InformationScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="0dp"
+        android:text="Exercise Entry"
+        android:textStyle="bold"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/ExerciseName2"
+        android:layout_width="168dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="84dp"
+        android:text="Name of Exercise:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EnterExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter name of exercise here!" />
+
+    <TextView
+        android:id="@+id/CalorieLost2"
+        android:layout_width="193dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="173dp"
+        android:text="Calories Lost:"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EnterCaloriesLost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Enter amount of calories here!" />
+
+    <Button
+        android:id="@+id/saveInformation2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="115dp"
+        android:text="Save Information" />
+    <Button
+        android:id="@+id/deleteInformation2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="115dp"
+        android:text="Delete Information" />
+
+
+</RelativeLayout>
